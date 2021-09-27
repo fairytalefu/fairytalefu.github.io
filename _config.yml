@@ -111,8 +111,8 @@ deploy:
 
 backup:
   type: git
-  repo: git@github.com:fairytalefu/hexoblog.git,master
-  message: "backup auto commit"
+  repo: 
+    backup: git@github.com:fairytalefu/hexoblog.git,master
   branch: master
 autoprefixer:
   exclude:
