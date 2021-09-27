@@ -1,5 +1,5 @@
 ---
-title: Hexo发布到Github Page
+title: 将Hexo部署到Coding
 tags: hexo
 categories: hexo
 ---
@@ -13,13 +13,13 @@ $ git config --global user.email "fairytalefu@outlook.com"
 ```
 
 ### 2.设置SSH Key
-打开GitHub_Settings_keys 页面，新建new SSH Key
+> 查找云服务器的SSH公钥，Linux的话在用户目录吓得.ssh，找到id_rsa.pub，复制里面所有内容，粘贴到Coding。Coding上添加SSH key位置：打开Coding 个人设置页面，新建new SSH Key
 
 ```bash
-# 网址：https://github.com/settings/keys
+# 网址：https://firecode-01.coding.net/user/account/setting/keys
 $ ssh-keygen -t rsa -C "fairytalefu@outlook.com"
 #验证
-$ ssh git@github.com
+$ ssh -T git@coding.net
 #别忘了安装hexo-deployer-git 
 $ yarn add hexo-deployer-git 
 ```

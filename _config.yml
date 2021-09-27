@@ -102,8 +102,21 @@ theme: shoka #landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/fairytalefu/fairytalefu.github.io.git
+  repo: 
+    github: git@github.com:fairytalefu/fairytalefu.github.io.git
+    #coding: https://e.coding.net/dtid_13c1cafca7de7659/dreamfly123/dreamfly123.git
+ #   coding: git@git.coding.net/dtid_13c1cafca7de7659:dreamfly123/dreamfly123.git
   branch: master
+  message: "script auto commit"
+
+backup:
+  type: git
+  repo: 
+    github: git@github.com:fairytalefu/fairytalefu.github.io.git
+    #coding: https://e.coding.net/dtid_13c1cafca7de7659/dreamfly123/dreamfly123.git
+ #   coding: git@git.coding.net/dtid_13c1cafca7de7659:dreamfly123/dreamfly123.git
+  branch: backup
+  message: "backup auto commit"
 
 autoprefixer:
   exclude:
