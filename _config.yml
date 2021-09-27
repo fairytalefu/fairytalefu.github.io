@@ -111,9 +111,9 @@ deploy:
 
 backup:
   type: git
-  repo: 
+  repository:
     backup: git@github.com:fairytalefu/hexoblog.git,master
-    
+
 autoprefixer:
   exclude:
     - '*.min.css'
