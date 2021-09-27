@@ -113,8 +113,8 @@ backup:
   type: git
   message: Backup up my blog
   repo: 
-    origin: git@github.com:fairytalefu/fairytalefu.github.io.git,backup
-
+    origin: git@github.com:fairytalefu/fairytalefu.github.io.git
+  branch: backup
 autoprefixer:
   exclude:
     - '*.min.css'
