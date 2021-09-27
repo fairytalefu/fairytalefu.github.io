@@ -6,7 +6,7 @@
   <link href="http://81.68.230.215/atom.xml" rel="self"/>
   
   <link href="http://81.68.230.215/"/>
-  <updated>2021-09-27T08:22:11.341Z</updated>
+  <updated>2021-09-27T10:16:49.929Z</updated>
   <id>http://81.68.230.215/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo备份</title>
+    <link href="http://81.68.230.215/2021/09/27/Hexo%E5%A4%87%E4%BB%BD/"/>
+    <id>http://81.68.230.215/2021/09/27/Hexo%E5%A4%87%E4%BB%BD/</id>
+    <published>2021-09-27T10:14:43.836Z</published>
+    <updated>2021-09-27T10:16:49.929Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1创建github分支"><a class="anchor" href="#1创建github分支">#</a> 1. 创建 github 分支</h3><blockquote></blockquote><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">git</span> config --global user.name <span class="token string">"fairytalefu"</span></pre></td></tr><tr><td data-num="2"></td><td><pre>$ <span class="token function">git</span> config --global user.email <span class="token string">"fairytalefu@outlook.com"</span></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1创建github分支&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#1创建github分支&quot;&gt;#&lt;/a&gt; 1. 创建 github 分支&lt;/h3&gt;
+&lt;blockquote&gt;&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight bas</summary>
+      
+    
+    
+    
+    <category term="hexo" scheme="http://81.68.230.215/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="http://81.68.230.215/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>将Hexo部署到Coding</title>

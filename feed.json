@@ -7,6 +7,17 @@
     "home_page_url": "http://81.68.230.215",
     "items": [
         {
+            "id": "http://81.68.230.215/2021/09/27/Hexo%E5%A4%87%E4%BB%BD/",
+            "url": "http://81.68.230.215/2021/09/27/Hexo%E5%A4%87%E4%BB%BD/",
+            "title": "Hexo备份",
+            "date_published": "2021-09-27T10:14:43.836Z",
+            "content_html": "<h3 id=\"1创建github分支\"><a class=\"anchor\" href=\"#1创建github分支\">#</a> 1. 创建 github 分支</h3>\n<blockquote></blockquote>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ <span class=\"token function\">git</span> config --global user.name <span class=\"token string\">\"fairytalefu\"</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>$ <span class=\"token function\">git</span> config --global user.email <span class=\"token string\">\"fairytalefu@outlook.com\"</span></pre></td></tr></table></figure>",
+            "tags": [
+                "hexo",
+                "hexo"
+            ]
+        },
+        {
             "id": "http://81.68.230.215/2021/09/27/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Coding/",
             "url": "http://81.68.230.215/2021/09/27/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Coding/",
             "title": "将Hexo部署到Coding",
