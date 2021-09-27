@@ -111,8 +111,7 @@ deploy:
 
 backup:
   type: git
-  repo: 
-    github: git@github.com:fairytalefu/fairytalefu.github.io.git
+  repo: git@github.com:fairytalefu/fairytalefu.github.io.git
     #coding: https://e.coding.net/dtid_13c1cafca7de7659/dreamfly123/dreamfly123.git
  #   coding: git@git.coding.net/dtid_13c1cafca7de7659:dreamfly123/dreamfly123.git
   branch: backup
