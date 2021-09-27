@@ -112,7 +112,8 @@ deploy:
 backup:
   type: git
   message: Backup up my blog
-  repository: git@github.com:fairytalefu/hexoblog.git,origin
+  repository: 
+    origin: git@github.com:fairytalefu/hexoblog.git,master
 
 autoprefixer:
   exclude:
