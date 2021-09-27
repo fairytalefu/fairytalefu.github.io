@@ -111,9 +111,9 @@ deploy:
 
 backup:
   type: git
-  repo: git@github.com:fairytalefu/hexoblog.git,main
+  repo: git@github.com:fairytalefu/hexoblog.git
   message: "backup auto commit"
-  branch: main
+  branch: master
 autoprefixer:
   exclude:
     - '*.min.css'
