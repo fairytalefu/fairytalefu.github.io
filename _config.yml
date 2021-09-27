@@ -111,7 +111,8 @@ deploy:
 
 backup:
   type: git
-  repository: git@github.com:fairytalefu/fairytalefu.github.io.git,backup
+  repository: 
+    backup: git@github.com:fairytalefu/fairytalefu.github.io.git,backup
   message: "backup auto commit"
 
 autoprefixer:
