@@ -112,7 +112,7 @@ deploy:
 backup:
   type: git
   repository: 
-    backup: git@github.com:fairytalefu/fairytalefu.github.io.git,backup
+    backup: git@github.com:fairytalefu/hexoblog.git,master
   message: "backup auto commit"
 
 autoprefixer:
