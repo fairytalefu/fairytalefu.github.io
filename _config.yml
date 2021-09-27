@@ -113,7 +113,7 @@ backup:
   type: git
   repo: git@github.com:fairytalefu/hexoblog.git
   message: "backup auto commit"
-  branch: master
+  branch: main
 autoprefixer:
   exclude:
     - '*.min.css'
