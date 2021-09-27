@@ -40,6 +40,8 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 http://ptpan.top/computer-science/note/theme-shoka-doc/config/
 https://qwq.link/
 https://shoka.lostyu.me/
+http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d、#hexo-abbrlink
+
 #百度统计网站访问
 https://hexo-next.readthedocs.io/zh_CN/latest/next/advanced/%E7%99%BE%E5%BA%A6%E7%BB%9F%E8%AE%A1-%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE/
 
