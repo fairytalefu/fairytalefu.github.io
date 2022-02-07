@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Fly</title>
   
-  <subtitle>=独行者快，众行者远=</subtitle>
-  <link href="http://81.68.230.215/atom.xml" rel="self"/>
+  <subtitle>那些急于求成的事，好像都没成功！独行者快，众行者远</subtitle>
+  <link href="https://fairytalefu.github.io/atom.xml" rel="self"/>
   
-  <link href="http://81.68.230.215/"/>
-  <updated>2021-09-27T10:16:49.929Z</updated>
-  <id>http://81.68.230.215/</id>
+  <link href="https://fairytalefu.github.io/"/>
+  <updated>2021-09-28T15:59:35.144Z</updated>
+  <id>https://fairytalefu.github.io/</id>
   
   <author>
     <name>Fly</name>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo备份</title>
-    <link href="http://81.68.230.215/2021/09/27/Hexo%E5%A4%87%E4%BB%BD/"/>
-    <id>http://81.68.230.215/2021/09/27/Hexo%E5%A4%87%E4%BB%BD/</id>
-    <published>2021-09-27T10:14:43.836Z</published>
-    <updated>2021-09-27T10:16:49.929Z</updated>
+    <title>Hexo备份记录</title>
+    <link href="https://fairytalefu.github.io/2021/09/28/Hexo%E5%A4%87%E4%BB%BD/"/>
+    <id>https://fairytalefu.github.io/2021/09/28/Hexo%E5%A4%87%E4%BB%BD/</id>
+    <published>2021-09-28T15:59:33.000Z</published>
+    <updated>2021-09-28T15:59:35.144Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1创建github分支"><a class="anchor" href="#1创建github分支">#</a> 1. 创建 github 分支</h3><blockquote></blockquote><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">git</span> config --global user.name <span class="token string">"fairytalefu"</span></pre></td></tr><tr><td data-num="2"></td><td><pre>$ <span class="token function">git</span> config --global user.email <span class="token string">"fairytalefu@outlook.com"</span></pre></td></tr></table></figure>]]></content>
     
@@ -35,17 +35,69 @@
     
     
     
-    <category term="hexo" scheme="http://81.68.230.215/categories/hexo/"/>
+    <category term="hexo" scheme="https://fairytalefu.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="http://81.68.230.215/tags/hexo/"/>
+    <category term="hexo" scheme="https://fairytalefu.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo-admin使用记录</title>
+    <link href="https://fairytalefu.github.io/2021/09/28/hexo-admin%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
+    <id>https://fairytalefu.github.io/2021/09/28/hexo-admin%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-09-28T15:51:00.000Z</published>
+    <updated>2021-09-28T15:56:55.079Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1插件配置"><a class="anchor" href="#1插件配置">#</a> 1. 插件配置</h3><blockquote><p>在 Hexo 的根目录配置文件_config.yml 新增配置项 admin</p></blockquote><figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment"># admin</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">admin</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">username</span><span class="token punctuation">:</span> <span class="token important">****</span></pre></td></tr><tr><td data-num="4"></td><td><pre>  <span class="token key atrule">password_hash</span><span class="token punctuation">:</span> ZwrRbx0gZl8myLbI9/oA4T4TxgSxE.</pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">secret</span><span class="token punctuation">:</span> <span class="token important">*****</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token comment"># username 是用户名</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment"># password_hash 是密码的哈希映射值，由于不同版本的 node.js 的哈希算法是不一样的，所有用以下方法来产生有效的密码哈希值</span></pre></td></tr><tr><td data-num="8"></td><td><pre>$ node</pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token punctuation">></span> const bcrypt = require('bcrypt<span class="token punctuation">-</span>nodejs')</pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token punctuation">></span> bcrypt.hashSync('your password secret here<span class="token tag">!')</span></pre></td></tr><tr><td data-num="11"></td><td><pre>//=<span class="token punctuation">></span> '$2a$10$8f0CO288aEgpb0BQk0mAEOIDwPS.s6nl703xL6PLTVzM.758x8xsi'</pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1插件配置&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#1插件配置&quot;&gt;#&lt;/a&gt; 1. 插件配置&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在 Hexo 的根目录配置文件_config.yml 新增配置项 admin&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="https://fairytalefu.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo备份恢复填坑记录</title>
+    <link href="https://fairytalefu.github.io/2021/09/27/%E5%8D%87%E7%BA%A7Node/"/>
+    <id>https://fairytalefu.github.io/2021/09/27/%E5%8D%87%E7%BA%A7Node/</id>
+    <published>2021-09-27T15:06:00.000Z</published>
+    <updated>2021-09-27T16:05:52.737Z</updated>
+    
+    <content type="html"><![CDATA[<hr /><h3 id="1升级node"><a class="anchor" href="#1升级node">#</a> 1. 升级 Node</h3><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ <span class="token function">npm</span> <span class="token function">install</span> n -g</pre></td></tr><tr><td data-num="2"></td><td><pre>$ n stable</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">#验证</span></pre></td></tr><tr><td data-num="4"></td><td><pre>$ node --version</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">## 期间还修改了腾讯云轻量服务器默认的 nodejs 环境变量</span></pre></td></tr><tr><td data-num="6"></td><td><pre>升级node的目的是为了升级hexo的部分依赖</pre></td></tr></table></figure><h3 id="2hexo备份插件"><a class="anchor" href="#2hexo备份插件">#</a> 2.hexo 备份插件</h3><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">#hexo-git-backup 插件地址</span></pre></td></tr><tr><td data-num="2"></td><td><pre>https://github.com/coneycode/hexo-git-backup</pre></td></tr></table></figure><h3 id="3遇到的坑"><a class="anchor" href="#3遇到的坑">#</a> 3. 遇到的坑</h3><blockquote><p>Q1:Please make sure you have the correct access rights and the repository exists. 发现执行 hexo b 一直报这个错误，但是 hexo d 却是正常的，因此不怀疑 ssh key 问题，跨过了第一个坑.</p></blockquote><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo b</pre></td></tr><tr><td data-num="2"></td><td><pre>$ hexo d</pre></td></tr></table></figure><blockquote><p>Q2: 从插件官方 GitHub 上的 issues 找答案，高兴地发现有人踩过坑了，结果却是环环相扣的坑</p></blockquote><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>https://github.com/coneycode/hexo-git-backup/issues/41</pre></td></tr><tr><td data-num="2"></td><td><pre>https://github.com/coneycode/hexo-git-backup/issues/40</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">#步骤如下：</span></pre></td></tr><tr><td data-num="4"></td><td><pre>$ <span class="token function">vim</span> node_modules/hexo-git-backup/git.js</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">#行 135 (改为) commands.push（[‘push’，’-u ‘，t，‘backup：’+ repo [t] .branch，’–force’]）;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>$ <span class="token function">vim</span> config.yml</pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment"># github 更改为 origin (同上，已修改跳过 2)</span></pre></td></tr><tr><td data-num="8"></td><td><pre>当执行hexo b时,发现error: src refspec backup does not match any</pre></td></tr><tr><td data-num="9"></td><td><pre>error: failed to push some refs to ‘git@github.com:…’</pre></td></tr><tr><td data-num="10"></td><td><pre>崩溃3m</pre></td></tr></table></figure><h3 id="4成功的做法"><a class="anchor" href="#4成功的做法">#</a> 4. 成功的做法</h3><ul><li>不修改 node_modules/hexo-git-backup/git.js 文件的任何内容</li><li>打开 Hexo 根目录下的 config.yml 将 github 更改为 origin</li><li>执行 git push 或者 hexo b</li><li>就可以愉快的备份了</li></ul><pre><code></code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr /&gt;
+&lt;h3 id=&quot;1升级node&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#1升级node&quot;&gt;#&lt;/a&gt; 1. 升级 Node&lt;/h3&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;figcaption data-lang=&quot;bash&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://fairytalefu.github.io/categories/Hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://fairytalefu.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>将Hexo部署到Coding</title>
-    <link href="http://81.68.230.215/2021/09/27/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Coding/"/>
-    <id>http://81.68.230.215/2021/09/27/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Coding/</id>
+    <link href="https://fairytalefu.github.io/2021/09/27/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Coding/"/>
+    <id>https://fairytalefu.github.io/2021/09/27/%E5%B0%86%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Coding/</id>
     <published>2021-09-27T08:17:36.040Z</published>
     <updated>2021-09-27T08:22:11.341Z</updated>
     
@@ -61,17 +113,17 @@
     
     
     
-    <category term="hexo" scheme="http://81.68.230.215/categories/hexo/"/>
+    <category term="hexo" scheme="https://fairytalefu.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="http://81.68.230.215/tags/hexo/"/>
+    <category term="hexo" scheme="https://fairytalefu.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title></title>
-    <link href="http://81.68.230.215/2021/09/27/publish2github/"/>
-    <id>http://81.68.230.215/2021/09/27/publish2github/</id>
+    <link href="https://fairytalefu.github.io/2021/09/27/publish2github/"/>
+    <id>https://fairytalefu.github.io/2021/09/27/publish2github/</id>
     <published>2021-09-27T02:58:38.760Z</published>
     <updated>2021-09-27T02:58:44.164Z</updated>
     
@@ -83,8 +135,8 @@
   
   <entry>
     <title>Hexo发布到Github Page</title>
-    <link href="http://81.68.230.215/2021/09/27/%E5%8F%91%E5%B8%83%E5%88%B0github/"/>
-    <id>http://81.68.230.215/2021/09/27/%E5%8F%91%E5%B8%83%E5%88%B0github/</id>
+    <link href="https://fairytalefu.github.io/2021/09/27/%E5%8F%91%E5%B8%83%E5%88%B0github/"/>
+    <id>https://fairytalefu.github.io/2021/09/27/%E5%8F%91%E5%B8%83%E5%88%B0github/</id>
     <published>2021-09-27T02:50:52.347Z</published>
     <updated>2021-09-27T14:58:01.671Z</updated>
     
@@ -100,21 +152,21 @@
     
     
     
-    <category term="hexo" scheme="http://81.68.230.215/categories/hexo/"/>
+    <category term="hexo" scheme="https://fairytalefu.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="http://81.68.230.215/tags/hexo/"/>
+    <category term="hexo" scheme="https://fairytalefu.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://81.68.230.215/2021/09/26/hello-world/"/>
-    <id>http://81.68.230.215/2021/09/26/hello-world/</id>
+    <link href="https://fairytalefu.github.io/2021/09/26/hello-world/"/>
+    <id>https://fairytalefu.github.io/2021/09/26/hello-world/</id>
     <published>2021-09-26T01:09:42.395Z</published>
-    <updated>2021-09-27T14:53:39.954Z</updated>
+    <updated>2021-09-28T16:12:10.994Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo</span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting</span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub</span>.</p><h2 id="quick-start"><a class="anchor" href="#quick-start">#</a> Quick Start</h2><h3 id="create-a-new-post"><a class="anchor" href="#create-a-new-post">#</a> Create a new post</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo new <span class="token string">"My New Post"</span></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing</span></p><h3 id="run-server"><a class="anchor" href="#run-server">#</a> Run server</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server</span></p><h3 id="generate-static-files"><a class="anchor" href="#generate-static-files">#</a> Generate static files</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating</span></p><h3 id="deploy-to-remote-sites"><a class="anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment</span></p><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>http://ptpan.top/computer-science/note/theme-shoka-doc/config/</pre></td></tr><tr><td data-num="2"></td><td><pre>https://qwq.link/</pre></td></tr><tr><td data-num="3"></td><td><pre>https://shoka.lostyu.me/</pre></td></tr><tr><td data-num="4"></td><td><pre>http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d、<span class="token comment">#hexo-abbrlink</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token comment">#百度统计网站访问</span></pre></td></tr><tr><td data-num="7"></td><td><pre>https://hexo-next.readthedocs.io/zh_CN/latest/next/advanced/%E7%99%BE%E5%BA%A6%E7%BB%9F%E8%AE%A1-%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE/</pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvLw==">Hexo</span>! This is your very first post. Check <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=">troubleshooting</span> or you can ask me on <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==">GitHub</span>.</p><h2 id="quick-start"><a class="anchor" href="#quick-start">#</a> Quick Start</h2><h3 id="create-a-new-post"><a class="anchor" href="#create-a-new-post">#</a> Create a new post</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo new <span class="token string">"My New Post"</span></pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s">Writing</span></p><h3 id="run-server"><a class="anchor" href="#run-server">#</a> Run server</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=">Server</span></p><h3 id="generate-static-files"><a class="anchor" href="#generate-static-files">#</a> Generate static files</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s">Generating</span></p><h3 id="deploy-to-remote-sites"><a class="anchor" href="#deploy-to-remote-sites">#</a> Deploy to remote sites</h3><figure class="highlight bash"><figcaption data-lang="bash"><span>h</span></figcaption><table><tr><td data-num="1"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s">Deployment</span></p><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>http://ptpan.top/computer-science/note/theme-shoka-doc/config/</pre></td></tr><tr><td data-num="2"></td><td><pre>https://qwq.link/</pre></td></tr><tr><td data-num="3"></td><td><pre>https://shoka.lostyu.me/</pre></td></tr><tr><td data-num="4"></td><td><pre>http://blog.itchenliang.club/posts/22350780-f32d-11ea-bb4a-d3e1cbe3d59d、<span class="token comment">#hexo-abbrlink</span></pre></td></tr><tr><td data-num="5"></td><td><pre></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token comment">#百度统计网站访问</span></pre></td></tr><tr><td data-num="7"></td><td><pre>https://hexo-next.readthedocs.io/zh_CN/latest/next/advanced/%E7%99%BE%E5%BA%A6%E7%BB%9F%E8%AE%A1-%E7%BD%91%E7%AB%99%E8%AE%BF%E9%97%AE/</pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre>http://blog.itchenliang.club/archives/</pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token comment">#主题介绍</span></pre></td></tr><tr><td data-num="11"></td><td><pre>https://blog.jason.moe/posts/b27510e7/</pre></td></tr><tr><td data-num="12"></td><td><pre>https://blog.moehz.com/archives/hexo-shoka-build.html</pre></td></tr></table></figure>]]></content>
     
     
       
